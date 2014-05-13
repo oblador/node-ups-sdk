@@ -1,0 +1,16 @@
+{
+  "name": "ups-sdk",
+  "version": "0.1.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Joel Arvidsson",
+  "license": "MIT",
+  "dependencies": {
+    "soap": "~0.4.4",
+    "xmldom": "~0.1.19",
+    "xpath": "0.0.6"
+  }
+}
