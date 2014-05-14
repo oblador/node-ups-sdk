@@ -15,7 +15,12 @@ Usage
 -----
 
 ```js
-var upsPickup = require('ups-sdk').pickup(username, password, accessToken);
+var upsPickup = require('ups-sdk').pickup({
+  username:    'someUser', 
+  password:    '****', 
+  accessToken: 'ABC123',
+  testing:     true
+});
 
 var args = {
   PickupAddress: {
@@ -52,7 +57,6 @@ For documentation and support of the UPS APIs, please refer to the [UPS Develope
 
 Todo
 ----
-* Test/production flag
 * Add more APIs, at first the shipping API
 * Input validation from the WSDL
 * More error classes (for transient and hard errors)
