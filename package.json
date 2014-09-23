@@ -1,16 +1,20 @@
 {
   "name": "ups-sdk",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "",
   "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oblador/node-ups-sdk.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Joel Arvidsson",
   "license": "MIT",
   "dependencies": {
-    "soap": "~0.4.4",
+    "soap": "~0.5.1",
     "xmldom": "~0.1.19",
-    "xpath": "0.0.6"
+    "xpath.js": "~1.0.5"
   }
 }
